@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		DDCE48A81A824160004C67CC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DDCE48A71A824160004C67CC /* main.m */; };
+		DDCE48B01A824316004C67CC /* pessoa.m in Sources */ = {isa = PBXBuildFile; fileRef = DDCE48AF1A824316004C67CC /* pessoa.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		DDCE48A41A824160004C67CC /* programa 1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "programa 1"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDCE48A71A824160004C67CC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DDCE48AE1A824316004C67CC /* pessoa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pessoa.h; sourceTree = "<group>"; };
+		DDCE48AF1A824316004C67CC /* pessoa.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = pessoa.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +44,8 @@
 		DDCE489B1A824160004C67CC = {
 			isa = PBXGroup;
 			children = (
+				DDCE48AE1A824316004C67CC /* pessoa.h */,
+				DDCE48AF1A824316004C67CC /* pessoa.m */,
 				DDCE48A61A824160004C67CC /* programa 1 */,
 				DDCE48A51A824160004C67CC /* Products */,
 			);
@@ -118,6 +123,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDCE48B01A824316004C67CC /* pessoa.m in Sources */,
 				DDCE48A81A824160004C67CC /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
